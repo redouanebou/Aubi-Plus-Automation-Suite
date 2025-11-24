@@ -34,7 +34,7 @@ Clone this repository:
 
 Bash
 
-git clone https://github.com/redouanebou/Job-Application-Automator2.git
+git clone https://github.com/redouanebou/Aubi-Plus-Automation-Suite.git
 Open Chrome and navigate to chrome://extensions/.
 
 Enable Developer Mode (top right).
