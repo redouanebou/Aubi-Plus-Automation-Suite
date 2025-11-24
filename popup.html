@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aubi-Plus Scraper Control</title>
+  <link rel="stylesheet" href="../data_display.css">
+  <style>
+    /* Inline styles for the popup */
+    body { width: 300px; padding: 15px; font-family: Arial, sans-serif; }
+    h2 { margin-top: 0; color: #333; }
+    button {
+      padding: 8px 15px;
+      margin: 5px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+    #startScraping { background: #4CAF50; color: white; }
+    #startScraping:hover { background: #45a049; }
+    #stopScraping { background: #f44336; color: white; }
+    #stopScraping:hover { background: #d32f2f; }
+    #showData { background: #007bff; color: white; }
+    #showData:hover { background: #0056b3; }
+    #status {
+      margin-top: 15px;
+      padding: 10px;
+      background: #f5f5f5;
+      border-radius: 4px;
+      min-height: 40px;
+      word-wrap: break-word;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h2>Aubi-Plus Scraper</h2>
+  <button id="startScraping">Start Scraping</button>
+  <button id="stopScraping">Stop Scraping</button>
+  <button id="showData">Show Collected Data</button>
+  <div id="status">Ready to start...</div>
+  <script src="popup.js"></script>
+</body>
+</html>
