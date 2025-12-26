@@ -73,7 +73,7 @@ Aubi-Plus-Automation-Suite/
 git clone https://github.com/redouanebou/Aubi-Plus-Automation-Suite.git
 ```
 
-**Load into Chrome:**
+**Load  into  Chrome:**
 
 1. Open Chrome and navigate to `chrome://extensions/`.
 2. Enable Developer Mode (toggle in top right).
